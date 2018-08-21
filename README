@@ -1,0 +1,10 @@
+Program for creating Apollonian Gaskets.
+Output is a ppm file: apollonian.ppm
+
+Todo:
+Right now rendering and file output is the same loop,
+if rendering to an intermediate bitmap in memory, and
+then writing that to output it should be possible to
+parallelize the render, and the file output could
+possibly benefit from being able to write larger chunks
+at a time.
